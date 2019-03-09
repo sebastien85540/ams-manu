@@ -1,3 +1,86 @@
-body{
-    background-image: url(images/reparations.jpg);
+/*   DOCUMENT INFORMATION 
+    - Document: AMS-manu
+    - Version: 1.0.0
+    - Author: Sebastien REYNAUD
+    
+*/
+
+/* Colors 
+    - Default body text #eee
+    - H1
+    - H2
+    - H3
+    - H4
+    - H5
+    - H6
+    - Button
+    - Button: hover
+    - Border
+*/
+
+/* FONTS
+    - Default:  lato
+    - subtitle
+    - H1
+    - H2
+    - H3
+    - H4
+    - H5
+    - H6
+    - p
+*/
+/* CSS DIRECTORY 
+    1. =GLOBAL
+    2. =HEADER
+*/
+
+/* GLOBAL ===================
+==============================================*/
+
+html{
+    background-image: #fff;
 }
+h1{
+    font-family: 'lato', 'Arial', sans-serif;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 700;
+    word-spacing: 8px;
+    
+
+}
+p{
+    
+}
+
+
+/* HEADER ===================
+==============================================*/
+header{
+    background-image: linear-gradient(rgba(255,255,255,0.3), rgba(0,0,0,0.3)), url(/images/reparations.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover
+}
+header img{
+    height: 75px;
+    
+}
+.home-title{
+    position: absolute;
+    top: 30%;
+    
+
+}
+.home-title h1{
+    font-size: 400%;
+    color: #fff;
+}
+.home-title p{
+    color: #fff;
+    
+}
+
+
+
