@@ -7,9 +7,9 @@
 
 /* Colors 
     - Default body text #eee
-    - H1
-    - H2
-    - H3
+    - H1:  #eee
+    - H2:  #fff
+    - H3:  #24c9fa
     - H4
     - H5
     - H6
@@ -27,7 +27,7 @@
     - H4
     - H5
     - H6
-    - p
+    - p:  
 */
 /* CSS DIRECTORY 
     1. =GLOBAL
@@ -50,8 +50,19 @@ h1{
     
 
 }
+h2{
+    color: #fff;
+    text-align: left;
+    vertical-align: baseline;
+    height: 100%;
+    text-underline-position: left;
+}
+h3{
+    color: #24c9fa;
+    text-align: center;
+}
 p{
-    
+  color: #000096;  
 }
 
 
@@ -81,7 +92,45 @@ header img{
     color: #fff;
     
 }
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: aqua;
+    color: green;
+    border-radius: 10px;
+}
 
 
-/* section 1 ===================
+/* HISTOIRE ===================
 ==============================================*/
+
+#nous{
+    background-image: linear-gradient(rgba(255,255,255,0.7), rgba(0,0,0,0.7)), url(../images/histoire.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* VENTES ===================
+==============================================*/
+
+#ventes{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url(../images/vente.jpg);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+.vehicules img{
+    height: 100px;
+    
+}
+
+/* GALERIE PHOTOS ===================
+==============================================*/
+.photos img{
+    height: 150px;
+    
+    text-align: center;
+}
+
