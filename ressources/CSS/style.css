@@ -71,7 +71,7 @@ h4{
     color: #fff;
 }
 p{
-  color: #000096;  
+  color: #fff;  
 }
 
 
@@ -191,5 +191,32 @@ header img{
 .titre-vertical {
     margin-right: 200px;
     position: absolute;
-    left: -321px;
+    left: -200px;
 }
+/* CONTACT ===================
+==============================================*/
+
+.contact-form{
+    margin-bottom: 30px;
+}
+.contact-message{
+    width: 100%;
+    margin-bottom: 30px;
+}
+btn-contact{
+    margin-top: 30px;
+}
+/* FOOTER ===================
+==============================================*/
+footer{
+    background-color: black;
+    height: 60px;
+    padding: 20px;
+}
+.copyright strong{
+    text-align: center;
+}
+.copyright{
+    
+}
+
