@@ -91,9 +91,9 @@ header img{
     
 }
 .home-title{
-    position: relative;
-    top: 200px;
-    left: 50px;
+    position: absolute;
+    top: 72%;
+    left: 0;
 
 }
 .home-title h1{
