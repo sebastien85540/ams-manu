@@ -66,7 +66,7 @@ h2{
 h3{
     color: #24c9fa;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 h4{
     color: #fff;
@@ -200,11 +200,13 @@ header img{
 .forfait-diesel{
     background-color: brown;
     height: 370px;
+    width: 90%;
     margin-bottom: 20px;
 }
 .forfait-freins{
     background-color: blueviolet;
     height: 370px;
+    width: 90%;
 }
 
 .titre-vertical {
