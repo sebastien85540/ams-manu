@@ -5,11 +5,13 @@
     <title>AMS-manu</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <!-- STYLES  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="ressources/CSS/style.css">
-
+       <!---- ICONS ------->
+ 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
@@ -18,7 +20,28 @@
 
 <body>
     <header>
-
+        <!----------------------------------- NAVBAR ------------------------------------------>
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="ressources/images/ams-manu.jpg"><img src="ressources/images/ams-manu-mini.jpg" alt="ams-manu" title="cliquez pour agrandir" /></a>
+                <a class="nav-items nav-link" href="#menu">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monmenu" aria-controls="monmenu" aria-label="Menu pour mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="monmenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-items nav-link" href="#nous">Qui sommes nous</a>
+                        <a class="nav-items nav-link" href="#ventes">Nos ventes</a>
+                        <a class="nav-items nav-link" href="#galerie">Galerie photos</a>
+                        <a class="nav-items nav-link" href="#forfaits">Nos forfaits</a>
+                        <a class="nav-items nav-link" href="#contact">Contact</a>
+                        <a class="nav-items nav-link" href="/">Connexion</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!----------------------------------- PAGE ACCUEIL ------------------------------------------>
+        <div class="menu" id="menu"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 home-title">
@@ -29,10 +52,12 @@
                 </div>
             </div>
         </div>
+
     </header>
+    <div id="nous"></div>
     <!----------------------------------- HISTOIRE ------------------------------------------>
-    <div id="'"></div>
-    <section class="nous" id="nous">
+
+    <section class="nous">
 
         <div class="container">
             <div class="row">
@@ -85,46 +110,41 @@
                 </div>
                 <div class="col-md-11">
                     <div class="vehicules">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="vehicule-1">
-                                    <h3>Vehicule 1</h3>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="ressources/images/voiture1.jpg" alt="voiture-1" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="descriptif-1">
-                                            <h6>Descriptif</h6>
-                                            <p>Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="index2.html">suite</a></p>
-                                        </div>
-                                    </div>
+                        <h3>Nos ventes</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-----------------------------------TABLEAU VENTES ------------------------------------------>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="row">Photos</th>
+                                        <th colspan="2">Description</th>
+                                        <th>Montant</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"><img src="ressources/images/voiture1.webp" alt="voiture-1" /></th>
+                                        <td colspan="2">Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="voiture1.html">suite</a></td>
+                                        <td>15 500 €</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"><img src="ressources/images/voiture2.webp" alt="voiture-2" /></th>
+                                        <td colspan="2">Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="voiture2.html">suite</a></td>
+                                        <td>8 000 €</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td colspan="2"></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="vehicule-2">
-                                    <h3>Vehicule 2</h3>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="ressources/images/voiture2.jpg" alt="voiture-2" />
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="descriptif">
-                                            <h6>descriptif</h6>
-                                            <p>Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="index3.html">suite</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -219,7 +239,8 @@
                                     <p>selon modèle</p>
                                 </div>
                                 <div class="forfait-content">
-                                    <ul>
+                                    <ul>    <!---- ICONS ------->
+
                                         <li><i class="fas fa-check-circle"></i>Huile 10/40</li>
                                         <li><i class="fas fa-check-circle"></i>Filtre à Huile</li>
                                         <li><i class="fas fa-check-circle"></i>filtre à air</li>
@@ -381,16 +402,20 @@
                                                 <label>Mesage:</label>
                                                 <textarea id="message" rows="3" class="contact-message">Dites nous si quelque chose manque</textarea>
                                                 <div class="row">
-                                                    <div class="col-md-12">
+                                                    <div class="col-md-6">
                                                         <div class="contact-form">
                                                             <button class="btn btn-contact">Envoyer</button>
                                                         </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="submit" name="upload" id="upload" value="Upload photo" />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
+                            </div>
                             </div>
                             <!----------------------------------- MAP------------------------------------------>
 
@@ -399,18 +424,22 @@
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.619931307065!2d-1.319489048980704!3d46.49583777193195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48041fa4bd352c45%3A0x8bc2a8057dbfb9d!2sGarage+ams+manu!5e0!3m2!1sfr!2sfr!4v1552332817462" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-                            <!----------------------------------- FOOTER------------------------------------------>
+    <!----------------------------------- FOOTER------------------------------------------>
     <footer>
         <div class="copyright">
             <p>AMS-Manu vous remercie de votre visite et espère vous voir très vite.<strong><a href="/">Mentions Légales</a></strong></p>
         </div>
     </footer>
+    <!----------------------------------- NAV------------------------------------------>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
