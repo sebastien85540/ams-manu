@@ -229,6 +229,7 @@ btn-contact{
     position: relative;
     padding-bottom: 75%;
     overflow: hidden;
+    margin-top: 200px;
 }
 .map iframe{
     position: absolute;
