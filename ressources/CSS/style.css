@@ -148,6 +148,9 @@ header img{
 .table img{
     height: 100px;
 }
+.table-bordered{
+    right: 0;
+}
 
 /* GALERIE PHOTOS ===================
 ==============================================*/
