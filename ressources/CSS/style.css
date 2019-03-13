@@ -75,12 +75,13 @@ p{
   color: #fff;  
 }
 
-
+/* ACCUEIL ===================
+==============================================*/
 
 
 /* HEADER ===================
 ==============================================*/
-header{
+.menu{
     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(0,0,0,0.3)), url(../images/reparations.jpg);
     height: 120vh;
     background-position: center;
@@ -262,4 +263,15 @@ footer{
 .copyright{
     
 }
+
+/* CONNEXION ===================
+==============================================*/
+
+
+.connexion h1{
+    color: #16d634;
+    text-align: center;
+}
+
+
 
