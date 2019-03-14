@@ -222,6 +222,9 @@ header img{
 .forfait-freins-title{
     margin-bottom: 20px;
 }
+.forfaits i{
+    margin-right: 10px
+}
 /* CONTACT ===================
 ==============================================*/
 
@@ -257,21 +260,15 @@ footer{
     height: 60px;
     padding: 20px;
 }
-.copyright strong{
-    text-align: center;
-}
-.copyright{
-    
-}
+
 
 /* CONNEXION ===================
 ==============================================*/
 
-
-.connexion h1{
-    color: #16d634;
+.mail{
     text-align: center;
 }
+
 
 
 
