@@ -1,17 +1,107 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Admin</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=devicde-width, initial-scale=1">
-        <!-----FONTS------>
-        <!-----STYLES----->
-        <!-----ICONS------>
-        
-    </head>
-    <body>
-    	<header>
-    		<h1></h1>
-    	</header>
-    </body>
+    <title>Admin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devicde-width, initial-scale=1">
+    <!--STYLES-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="ressources/CSS/style.css">
+    <!---ICONS------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!---FONTS--->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-admin">
+                        <h1>Accueil Admin</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-admin table-bordered">
+                        <table>
+                            <caption>Les différents vehicules</caption>
+                            <thead>
+
+
+                                <!------------------------------------DESCRIPTION------------------------->
+                                <tr>
+                                    <th scope="row">photos</th>
+                                    <th colspan="2">Descriptif</th>
+                                    <th>Prix</th>
+                                </tr>
+                            </thead>
+                            <!--------------------------PIED DE TABLEAU----------------------------------->
+                            <tfoot>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <th colspan="2"></th>
+                                    <th></th>
+                                </tr>
+                            </tfoot>
+                  <!------------------------------------VOITURE 1------------------------->          
+                            <tbody>
+                                <tr>
+                                    <td scope="row"><img src="ressources/images/voiture1.webp"></td>
+                                    <td colspan="2">Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="voiture1.html">suite</a></td>
+                                    <td>15 500 €</td>
+                                </tr>
+<!------------------------------------VOITURE 2------------------------->
+                                <tr>
+                                    <td scope="row"><img src="ressources/images/voiture2.webp"></td>
+                                    <td colspan="2">Sed fruatur sane hoc solacio atque hanc insignem ignominiam, quoniam uni <a href="voiture1.html">suite</a></td>
+                                    <td>8 000 €</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row"></td>
+                                    <td colspan="2"></td>
+                                    <td></td>
+      <!------------------------------------VOITURE 3------------------------->                              
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="btn">
+    <!------------------------------------ICONS------------------------->                                
+                                    <a href="/"><i class="fas fa-edit"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="btn">
+                                    <a href="/"><i class="fas fa-trash-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a><i class="fas fa-undo"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>AMS-Manu vous remercie de votre visite et espère vous voir très vite.<br><strong><a href="/">Mentions Légales</a></strong></p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>

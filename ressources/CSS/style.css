@@ -124,7 +124,9 @@ header img{
     background-size: cover;
     
 }
-
+.histoire{
+    margin-top: 400px;
+}
 
 /* VENTES ===================
 ==============================================*/
@@ -151,6 +153,7 @@ header img{
 }
 .table-bordered{
     right: 0;
+    padding-bottom: 380px;
 }
 
 /* GALERIE PHOTOS ===================
@@ -219,9 +222,7 @@ header img{
 .forfait-content i{
     color: green;
 }
-.forfait-freins-title{
-    margin-bottom: 20px;
-}
+
 .forfaits i{
     margin-right: 10px
 }
@@ -253,14 +254,17 @@ btn-contact{
     border: 0;
     
 }
+
 /* FOOTER ===================
 ==============================================*/
 footer{
     background-color: black;
-    height: 60px;
+    height: 80px;
     padding: 20px;
 }
-
+.copyright{
+    text-align: center;
+}
 
 /* CONNEXION ===================
 ==============================================*/
@@ -268,7 +272,41 @@ footer{
 .mail{
     text-align: center;
 }
+.mot-p{
+    margin-left: 50px;
+}
 
+/* VOITURE 1 ===================
+==============================================*/
+.voit-1{
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+/* VOITURE 2 ===================
+==============================================*/
+
+.voit-2{
+    position: relative;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin-top: 100px;
+    
+} 
+table img{
+    width: 250px;
+}
+.table-admin{
+    border-collapse: collapse;
+}
+caption-side{
+    
+}
+td, th{
+    border: 1px solid black;
+}
 
 
 
