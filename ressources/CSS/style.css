@@ -1,3 +1,4 @@
+
 /*   DOCUMENT INFORMATION 
     - Document: AMS-manu
     - Version: 1.0.0
@@ -66,7 +67,7 @@ h2{
 h3{
     color: #24c9fa;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 h4{
     color: #fff;
@@ -112,7 +113,9 @@ header img{
     color: green;
     border-radius: 10px;
 }
-
+.navbar-brand{
+    height: 30px;
+}
 
 /* HISTOIRE ===================
 ==============================================*/
@@ -124,12 +127,15 @@ header img{
     background-size: cover;
     
 }
-.histoire{
-    margin-top: 200px;
+.title-history{
+    margin-top: 0;
 }
 
 /* VENTES ===================
 ==============================================*/
+.vehicules{
+    margin-bottom: 50px;
+}
 
 .ventes{
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url(../images/vente.jpg);
@@ -137,24 +143,23 @@ header img{
     background-position: center;
     background-size: cover;
 }
-.table{
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    position: absolute;
-    background-color: forestgreen;
+table, thead, tbody, th,td{
     color: #fff;
-    text-align: center;
-    margin-top: 400px;
+    background-color: #7c77fd;
+    border-collapse: collapse;
+    overflow: hidden;
     
 }
-.table img{
-    height: 100px;
+table img{
+    width: 70%;
 }
-.table-bordered{
-    right: 0;
-    padding-bottom: 380px;
+    
+@media all and (max-width: 370px){
+    table img{
+        width:100%;
+    }
 }
+
 
 /* GALERIE PHOTOS ===================
 ==============================================*/
@@ -171,6 +176,9 @@ header img{
     margin-bottom: 30px;
     
 }
+
+
+
 
 
 /* NOS FORFAITS ===================
@@ -295,14 +303,14 @@ footer{
     margin-top: 100px;
     
 } 
-table img{
-    width: 250px;
-}
+/*  ===================
+==============================================*/
+
 .table-admin{
     border-collapse: collapse;
 }
-caption-side{
-    
+caption{
+    caption-side: top !important;
 }
 td, th{
     border: 1px solid black;
