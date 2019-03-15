@@ -177,10 +177,6 @@ table img{
     
 }
 
-
-
-
-
 /* NOS FORFAITS ===================
 ==============================================*/
 
@@ -303,7 +299,7 @@ footer{
     margin-top: 100px;
     
 } 
-/*  ===================
+/* ADMIN ===================
 ==============================================*/
 
 .table-admin{
@@ -315,7 +311,10 @@ caption{
 td, th{
     border: 1px solid black;
 }
-
-
-
-
+.title-admin{
+    text-align: center;
+    background-color: brown;
+}
+.admin-footer{
+    margin-top: 235px;
+}
